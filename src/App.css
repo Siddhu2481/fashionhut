@@ -1,0 +1,41 @@
+body {
+  font-family: "El Messiri", sans-serif;
+  background-color: #4d4f4e;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (max-width: 480px) {
+  .main-body {
+    margin: 0px 0px 100px 0px;
+  }
+  .copyright {
+    display: none;
+  }
+}
