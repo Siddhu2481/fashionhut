@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 const useAlan = () => {
   useEffect(() => {
     alanBtn({
-      key: "5d157e1ef3c756b1c9cb1b6edcc680662e956eca572e1d8b807a3e2338fdd0dc/stage",
+      key: "1bddd1c3dcb26fc902f88fc5041fd4dc2e956eca572e1d8b807a3e2338fdd0dc/stage",
       bottom: "55px",
       right: "25px",
       zIndex: 10,
