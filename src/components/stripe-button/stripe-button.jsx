@@ -13,7 +13,7 @@ const StripeCheckoutButton = ({ price }) => {
   return (
     <StripeCheckout
       label="Pay Now"
-      name="Shopzzy"
+      name="Fashion Hut"
       image="https://cutt.ly/vNXTMG4"
       billingAddress
       shippingAddress
